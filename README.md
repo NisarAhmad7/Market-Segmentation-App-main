@@ -16,6 +16,7 @@ Identifying clusters of similar customers
 Visualizing the clusters for easy interpretation
 
 # Project Structure
+
 Market-Segmentation/
 |__ results_images/
 |______IMAGES
@@ -83,6 +84,17 @@ Performance: High predictive accuracy on test data
 ![Alt Text](results_images/re5.png)
 
 
+# How to Run
+
+Train and save models:
+
+`python models.py`
+
+`Run Streamlit app`:
+
+`streamlit run app.py`
+
+
 # Visualizations
 
 Visual insights are generated using Matplotlib, Seaborn, and Plotly:
@@ -100,7 +112,7 @@ Distribution of features in each cluster helps understand customer segments.
 
 # Streamlit App
 
-The app (app.py) allows interactive exploration:
+The app (`app.py`) allows interactive exploration:
 
 Input customer financial data
 
@@ -111,16 +123,6 @@ Visualize distributions of features in the predicted cluster
 Supports interactive and real-time visualization
 
 
-
-# How to Run
-
-Train and save models:
-
-python models.py
-
-Run Streamlit app:
-
-streamlit run app.py
 
 Explore clusters and visualizations interactively
 
